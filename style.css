@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial;
+}
+html, body{
+    width:100%;
+    height:100%;
+}
+.container{
+    border-radius: 5px;
+    left:25%;
+    top:30%;
+    width:50%;
+    height:20%;
+    padding:10px;
+    position:absolute; 
+    border:1px solid rgb(200,200,200);
+}
+.small-container{
+    position:absolute;
+    border:0;
+    left:10%;
+    top:40%;
+    width:80%;
+}
+input#abn{
+    width:80%;
+    height:40px;
+    padding:3px;
+    font-size:26px;
+    text-align:center;
+}
+button{
+    width:17.7%;
+    height:50px;
+    padding:3px;
+    font-size:26px;
+}
+h2{
+    padding:10px;
+    text-align:center;
+    font-size: 300%;
+    color: green;
+}
